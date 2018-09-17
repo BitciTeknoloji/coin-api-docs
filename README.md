@@ -2,20 +2,18 @@
 The documentation for Bitci.com coin instant API document.
 
 ## Usage
-Append your exchange's URL to the beginning of the methods to use the API. For example, to get ticker info from Bitci.com, use [https://www.bitci.com/Api] (https://www.bitci.com/Api)
+Append your exchange's URL to the beginning of the methods to use the API. For example, to get ticker info from Bitci.com, use [https://api.bitci.com/api] (https://api.bitci.com/api)
 
 ## Questions & Problems
 Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) on this github project to ask questions and report bugs.
 
 ## Request Limits
 
-* .../Api/Coin/ requests are limited to 10 requests per 100 miliseconds.
-* Other requests are limited to 1 request per 100 miliseconds.
-* If you make more than 50 consequent unauthorized requests your IP address will be blocked.
+* .../api/coin/ requests are limited to 3 requests per 1 seconds.
 
 ## Coin / Currency Ticker
 
-<code>GET</code> .../Coin/BTC_TRY
+<code>GET</code> .../coin/BTC_TRY
 * BTC_TRY
 **Result:**
 ``` json
@@ -36,7 +34,7 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 
 ```
 
-<code>GET</code> .../Coin/BTC_CHFT
+<code>GET</code> .../coin/BTC_CHFT
 * BTC_CHFT
 **Result:**
 ``` json
