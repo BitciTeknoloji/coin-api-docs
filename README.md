@@ -15,7 +15,7 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 
 ## Ticker
 
-<code>GET</code> .../ApiTickers/Coin
+<code>GET</code> .../ApiTickers/Coin/Btc_Try
 
 **Result:**
 ``` json
