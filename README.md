@@ -18,7 +18,9 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 <code>GET</code> .../Api/Coin/BTC_TRY
 <code>GET</code> .../Api/Coin/BTC_CHFT
 
-**Result: BTC_TRY **
+* BTC_TRY
+
+**Result:**
 ``` json
 [
 	{
@@ -35,7 +37,9 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 	}
 ]
 ```
-**Result: BTC_CHFT **
+* BTC_CHFT
+
+**Result:**
 ``` json
 [
 	{
