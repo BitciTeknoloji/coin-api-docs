@@ -16,10 +16,7 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 ## Ticker
 
 <code>GET</code> .../Api/Coin/BTC_TRY
-<code>GET</code> .../Api/Coin/BTC_CHFT
-
 * BTC_TRY
-
 **Result:**
 ``` json
 [
@@ -37,8 +34,9 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 	}
 ]
 ```
-* BTC_CHFT
 
+<code>GET</code> .../Api/Coin/BTC_CHFT
+* BTC_CHFT
 **Result:**
 ``` json
 [
