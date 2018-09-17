@@ -31,7 +31,7 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 	"low": 2000.00,
 	"change": 1.06,
 	"volume": 55.72,
-	"timeStamp": 1508242980
+	"timestamp": 1508242980
 }
 
 ```
@@ -52,7 +52,7 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 	"low": 2000.00,
 	"change": 1.06,
 	"volume": 55.72,
-	"timeStamp": 1508242980
+	"timestamp": 1508242980
 }
 
 ```
@@ -67,7 +67,7 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 * low: Lowest price in the last 24 hours.
 * change: Change price in the last 24 hours.
 * volume: Total volume in the last 24 hours.
-* timeStamp: Unix UTC timestamp date and time.
+* timestamp: Unix UTC timestamp date and time.
 
 ## Available Coin / Currency Tickers
 
