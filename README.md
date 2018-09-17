@@ -34,6 +34,17 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 	}
 ]
 ```
+* CoinCode: Api coin code.
+* CoinName: Api coin long name.
+* CurrencyCode: Api currency code.
+* Price: Last price.
+* Open24H: Price of the opening in the last 24 hours.
+* High24H: Highest price in the last 24 hours.
+* Low24H: Lowest price in the last 24 hours.
+* Change24H: Change price in the last 24 hours.
+* Volume24H: Total volume in the last 24 hours.
+* Timestamp: Unix UTC timestamp date and time.
+
 ## Available Coin Tickers
 
 Bitcoin
