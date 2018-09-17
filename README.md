@@ -2,7 +2,7 @@
 The documentation for Bitci.com coin instant API document.
 
 ## Usage
-Append your exchange's URL to the beginning of the methods to use the API. For example, to get ticker info from Bitci.com, use [https://www.bitci.com/Api/Coin] (https://www.bitci.com/Api/Coin)
+Append your exchange's URL to the beginning of the methods to use the API. For example, to get ticker info from Bitci.com, use [https://www.bitci.com/Api] (https://www.bitci.com/Api)
 
 ## Questions & Problems
 Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) on this github project to ask questions and report bugs.
@@ -13,60 +13,63 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 * Other requests are limited to 1 request per 100 miliseconds.
 * If you make more than 50 consequent unauthorized requests your IP address will be blocked.
 
-## Ticker
+## Coin / Currency Ticker
 
-<code>GET</code> .../Api/Coin/BTC_TRY
+<code>GET</code> .../Coin/BTC_TRY
 * BTC_TRY
 **Result:**
 ``` json
-[
-	{
-	"CoinCode": "BTC",
-	"CoinName": "Bitcoin",
-	"CurrencyCode": "TRY",
-	"Price": 39802.35,
-	"Open24H": 42000.00,
-	"High24H": 45000.00,
-	"Low24H": 2000.00,
-	"Change24H": 1.06,
-	"Volume24H": 55.72,
-	"Timestamp": 1508242980
-	}
-]
+
+{
+	"coinCode": "BTC",
+	"coinName": "Bitcoin",
+	"currencyCode": "TRY",
+	"currencyName": "Türk Lira",
+	"price": 39802.35,
+	"open": 42000.00,
+	"high": 45000.00,
+	"low": 2000.00,
+	"change": 1.06,
+	"volume": 55.72,
+	"timeStamp": 1508242980
+}
+
 ```
 
-<code>GET</code> .../Api/Coin/BTC_CHFT
+<code>GET</code> .../Coin/BTC_CHFT
 * BTC_CHFT
 **Result:**
 ``` json
-[
-	{
-	"CoinCode": "BTC",
-	"CoinName": "Bitcoin",
-	"CurrencyCode": "CHFT",
-	"Price": 39802.35,
-	"Open24H": 42000.00,
-	"High24H": 45000.00,
-	"Low24H": 2000.00,
-	"Change24H": 1.06,
-	"Volume24H": 55.72,
-	"Timestamp": 1508242980
-	}
-]
+
+{
+	"coinCode": "BTC",
+	"coinName": "Bitcoin",
+	"currencyCode": "CHFT",
+	"currencyName": "Crypto Holding",
+	"price": 39802.35,
+	"open": 42000.00,
+	"high": 45000.00,
+	"low": 2000.00,
+	"change": 1.06,
+	"volume": 55.72,
+	"timeStamp": 1508242980
+}
+
 ```
 
-* CoinCode: Api coin code.
-* CoinName: Api coin long name.
-* CurrencyCode: Api currency code.
-* Price: Last price.
-* Open24H: Price of the opening in the last 24 hours.
-* High24H: Highest price in the last 24 hours.
-* Low24H: Lowest price in the last 24 hours.
-* Change24H: Change price in the last 24 hours.
-* Volume24H: Total volume in the last 24 hours.
-* Timestamp: Unix UTC timestamp date and time.
+* coinCode: Api coin code.
+* coinName: Api coin long name.
+* currencyCode: Api currency code.
+* currencyName: Api currency long name.
+* price: Last price.
+* open: Price of the opening in the last 24 hours.
+* high: Highest price in the last 24 hours.
+* low: Lowest price in the last 24 hours.
+* change: Change price in the last 24 hours.
+* volume: Total volume in the last 24 hours.
+* timeStamp: Unix UTC timestamp date and time.
 
-## Available Coin Tickers
+## Available Coin / Currency Tickers
 
 Bitcoin
 *	BTC/TRY
