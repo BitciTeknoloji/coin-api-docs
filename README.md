@@ -72,33 +72,33 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 ## Available Coin / Currency Tickers
 
 Bitcoin
-*	BTC/TRY
-*	BTC/CHFT
+*	BTC_TRY
+*	BTC_CHFT
 
 Litecoin
-*	LTC/TRY
-*	LTC/CHFT
+*	LTC_TRY
+*	LTC_CHFT
 
 Ethereum
-*	ETH/TRY
-*	ETH/CHFT
+*	ETH_TRY
+*	ETH_CHFT
 
 Bitcoin Cash
-*	BCH/TRY
-*	BCH/CHFT
+*	BCH_TRY
+*	BCH_CHFT
 
 Bitcoin Gold
-*	BTG/TRY
-*	BTG/CHFT
+*	BTG_TRY
+*	BTG_CHFT
 
 Digital Cash
-*	DASH/TRY
-*	DASH/CHFT
+*	DASH_TRY
+*	DASH_CHFT
 
 Doge Coin
-*	DOGE/TRY
-*	DOGE/CHFT
+*	DOGE_TRY
+*	DOGE_CHFT
 
 DigiByte
-*	DGB/TRY
-*	DGB/CHFT
+*	DGB_TRY
+*	DGB_CHFT
