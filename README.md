@@ -77,6 +77,10 @@ Litecoin
 *	LTC_TRY
 *	LTC_CHFT
 
+Ripple
+*	XRP_TRY
+*	XRP_CHFT
+
 Ethereum
 *	ETH_TRY
 *	ETH_CHFT
@@ -92,6 +96,10 @@ Bitcoin Gold
 Digital Cash
 *	DASH_TRY
 *	DASH_CHFT
+
+Stellar
+*	XLM_TRY
+*	XLM_CHFT
 
 Doge Coin
 *	DOGE_TRY
