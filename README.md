@@ -133,10 +133,6 @@ Ripple
 *	XRP_TRY
 *	XRP_CHFT
 
-Ethereum
-*	ETH_TRY
-*	ETH_CHFT
-
 Bitcoin Cash
 *	BCH_TRY
 *	BCH_CHFT
