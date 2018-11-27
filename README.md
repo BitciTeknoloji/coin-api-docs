@@ -129,6 +129,10 @@ Litecoin
 *	LTC_TRY
 *	LTC_CHFT
 
+Ethereum
+*	ETH_TRY
+*	ETH_CHFT
+
 Ripple
 *	XRP_TRY
 *	XRP_CHFT
