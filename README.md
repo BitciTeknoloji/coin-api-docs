@@ -78,8 +78,8 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 
 * coinCode: Api coin code.
 * coinName: Api coin long name.
-* currencyCode: Api currency code.
-* currencyName: Api currency long name.
+* currencyCode: Api currency code or coin code.
+* currencyName: Api currency long name or coin long name.
 * price: Last price.
 * open: Price of the opening in the last 24 hours.
 * high: Highest price in the last 24 hours.
@@ -121,6 +121,19 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 		"change": 1.06,
 		"volume": 55.72,
 		"timestamp": 1508242980
+	},
+	{
+		"coinCode": "LTC",
+		"coinName": "Litecoin",
+		"currencyCode": "BTC",
+		"currencyName": "Bitcoin",
+		"price": 0.01255198,
+		"open": 0.01235271,
+		"high": 0.01268362,
+		"low": 0.01223700,
+		"change": 1.61,
+		"volume": 96.50000000,
+		"timestamp": 1508242980
 	}
 	... and more...
 ]
@@ -129,8 +142,8 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 
 * coinCode: Api coin code.
 * coinName: Api coin long name.
-* currencyCode: Api currency code.
-* currencyName: Api currency long name.
+* currencyCode: Api currency code or coin code.
+* currencyName: Api currency long name or coin long name.
 * price: Last price.
 * open: Price of the opening in the last 24 hours.
 * high: Highest price in the last 24 hours.
@@ -139,7 +152,7 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 * volume: Total volume in the last 24 hours.
 * timestamp: Unix UTC timestamp date and time.
 
-## Available Coin / Currency Tickers
+## Available Coin / Currency and Coin Tickers
 
 Bitcoin
 *	BTC_TRY
