@@ -12,7 +12,7 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 * .../api/coin/ requests are limited to 3 requests per 1 seconds.
 * .../api/ requests are limited to 3 requests per 1 seconds.
 
-## Coin / Currency Ticker
+## Coin / Currency and Coin Ticker
 
 <code>GET</code> .../coin/BTC_TRY
 * BTC_TRY
@@ -55,6 +55,26 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 }
 
 ```
+<code>GET</code> .../coin/LTC_BTC
+* LTC_BTC
+**Result:**
+``` json
+
+{
+	"coinCode": "LTC",
+	"coinName": "Litecoin",
+	"currencyCode": "BTC",
+	"currencyName": "Bitcoin",
+	"price": 0.01255198,
+	"open": 0.01235271,
+	"high": 0.01268362,
+	"low": 0.01223700,
+	"change": 1.61,
+	"volume": 96.50000000,
+	"timestamp": 1508242980
+}
+
+```
 
 * coinCode: Api coin code.
 * coinName: Api coin long name.
@@ -68,7 +88,7 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 * volume: Total volume in the last 24 hours.
 * timestamp: Unix UTC timestamp date and time.
 
-## Coin / Currency All Ticker
+## Coin / Currency and Coin All Ticker
 
 <code>GET</code> .../ReturnTicker
 * ReturnTicker
@@ -128,35 +148,59 @@ Bitcoin
 Litecoin
 *	LTC_TRY
 *	LTC_CHFT
+*	LTC_BTC
 
 Ethereum
 *	ETH_TRY
 *	ETH_CHFT
+*	ETH_BTC
 
 Ripple
 *	XRP_TRY
 *	XRP_CHFT
+*	XRP_BTC
 
 Bitcoin Cash
 *	BCH_TRY
 *	BCH_CHFT
+*	BCH_BTC
 
 Bitcoin Gold
 *	BTG_TRY
 *	BTG_CHFT
+*	BTG_BTC
+
+Pirl
+*	PIRL_TRY
+*	PIRL_CHFT
+*	PIRL_BTC
 
 Digital Cash
 *	DASH_TRY
 *	DASH_CHFT
+*	DASH_BTC
+
+Z Cash
+*	ZEC_TRY
+*	ZEC_CHFT
+*	ZEC_BTC
 
 Stellar
 *	XLM_TRY
 *	XLM_CHFT
+*	XLM_BTC
 
 Doge Coin
 *	DOGE_TRY
 *	DOGE_CHFT
+*	DOGE_BTC
 
 DigiByte
 *	DGB_TRY
 *	DGB_CHFT
+*	DGB_BTC
+
+Bitcoin Hyper
+*	BHY_TRY
+*	BHY_CHFT
+*	BHY_BTC
