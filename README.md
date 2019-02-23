@@ -30,7 +30,9 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 	"low": 2000.00,
 	"change": 1.06,
 	"volume": 55.72,
-	"timestamp": 1508242980
+	"timestamp": 1508242980,
+	"bid": 21153.00000000,
+	"ask": 21234.00000000
 }
 
 ```
@@ -51,7 +53,9 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 	"low": 2000.00,
 	"change": 1.06,
 	"volume": 55.72,
-	"timestamp": 1508242980
+	"timestamp": 1508242980,
+	"bid": 3980.12691000,
+	"ask": 4064.83461000
 }
 
 ```
@@ -71,7 +75,9 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 	"low": 0.01223700,
 	"change": 1.61,
 	"volume": 96.50000000,
-	"timestamp": 1508242980
+	"timestamp": 1508242980,
+	"bid": 0.01223737,
+	"ask": 0.01266584
 }
 
 ```
@@ -87,6 +93,8 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 * change: Change price in the last 24 hours.
 * volume: Total volume in the last 24 hours.
 * timestamp: Unix UTC timestamp date and time.
+* bid: Highest current order.
+* ask: Lowest current order.
 
 ## Coin / Currency and Coin All Ticker
 
@@ -107,7 +115,9 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 		"low": 2000.00,
 		"change": 1.06,
 		"volume": 55.72,
-		"timestamp": 1508242980
+		"timestamp": 1508242980,
+		"bid": 21153.00000000,
+		"ask": 21234.00000000
 	},
 	{
 		"coinCode": "BTC",
@@ -120,7 +130,9 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 		"low": 2000.00,
 		"change": 1.06,
 		"volume": 55.72,
-		"timestamp": 1508242980
+		"timestamp": 1508242980,
+		"bid": 3980.12691000,
+		"ask": 4064.83461000
 	},
 	{
 		"coinCode": "LTC",
@@ -133,7 +145,9 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 		"low": 0.01223700,
 		"change": 1.61,
 		"volume": 96.50000000,
-		"timestamp": 1508242980
+		"timestamp": 1508242980,
+		"bid": 0.01223737,
+		"ask": 0.01266584
 	}
 	... and more...
 ]
@@ -151,6 +165,8 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 * change: Change price in the last 24 hours.
 * volume: Total volume in the last 24 hours.
 * timestamp: Unix UTC timestamp date and time.
+* bid: Highest current order.
+* ask: Lowest current order.
 
 ## Available Coin / Currency and Coin Tickers
 
