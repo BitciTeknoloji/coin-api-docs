@@ -168,7 +168,58 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 * bid: Highest current order.
 * ask: Lowest current order.
 
-## Available Coin / Currency and Coin Tickers
+## Coin / Currency and Order Books
+
+<code>GET</code> .../orderbook/BTC_TRY
+* BTC_TRY
+**Result:**
+``` json
+
+{
+	"TimeStamp": 1560603859406,
+	"Asks": [
+	    {
+	      "Quantity": 0.04,
+	      "Price": 51072.13
+	    },
+	    {
+	      "Quantity": 0.07,
+	      "Price": 51088.72
+	    },
+	    {
+	      "Quantity": 0.02,
+	      "Price": 51091.54
+	    },
+	    ... and more...
+     	],
+	"Bids": [
+	    {
+	      "Quantity": 0.40757466,
+	      "Price": 20100
+	    },
+	    {
+	      "Quantity": 0.66698238,
+	      "Price": 35100
+	    },
+	    {
+	      "Quantity": 0.09,
+	      "Price": 50734.75
+	    },
+	    ... and more...
+        ]
+}
+
+```
+
+* TimeStamp: Query time.
+* Asks: Open sales orders.
+	* Quantity: Quantity.
+	* Price: Price.
+* Bids: Open buy orders.
+	* Quantity: Quantity.
+	* Price: Price.
+
+## Available Coin / Currency
 
 Bitcoin
 *	BTC_TRY
