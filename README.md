@@ -250,11 +250,6 @@ Bitcoin Gold
 *	BTG_CHFT
 *	BTG_BTC
 
-Pirl
-*	PIRL_TRY
-*	PIRL_CHFT
-*	PIRL_BTC
-
 Digital Cash
 *	DASH_TRY
 *	DASH_CHFT
