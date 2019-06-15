@@ -279,3 +279,12 @@ Bitcoin Hyper
 *	BHY_TRY
 *	BHY_CHFT
 *	BHY_BTC
+
+0x ZeroX
+*	ZRX_CHFT
+
+Holo
+*	HOT_CHFT
+
+Pundi X
+*	NPXS_CHFT
