@@ -266,6 +266,43 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 * MinWithdraw: Minimum withdraw value.
 * Coin: Related coin.
 
+## Coin / Currency and Completed Orders
+
+<code>GET</code> .../trades/BTC_TRY
+* BTC_TRY
+
+**Result:**
+``` json
+
+[
+  {
+    "Id": 4684380,
+    "Price": 64978,
+    "Qty": 0.00314929,
+    "Time": 1561472782
+  },
+  {
+    "Id": 4681114,
+    "Price": 64477,
+    "Qty": 0.0045,
+    "Time": 1561458950
+  },
+  {
+    "Id": 4681042,
+    "Price": 64477,
+    "Qty": 0.0045,
+    "Time": 1561458886
+  },
+  ... and more...
+]
+
+```
+
+* Id: Transaction id.
+* Price: Transaction price.
+* Qty: Transaction value.
+* Time: Unix timestamp date and time.
+
 ## Available Coin / Currency
 
 Bitcoin
