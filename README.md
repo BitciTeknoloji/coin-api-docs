@@ -218,6 +218,48 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 * Bids: Open buy orders.
 	* Quantity: Quantity.
 	* Price: Price.
+	
+## Coin Wallet Status
+
+<code>GET</code> .../walletstatus
+
+**Result:**
+``` json
+
+[
+  {
+    "Deposit": true,
+    "Withdraw": false,
+    "MinWithdraw": 0.002,
+    "Coin": "BTC"
+  },
+  {
+    "Deposit": true,
+    "Withdraw": true,
+    "MinWithdraw": 0.004,
+    "Coin": "LTC"
+  },
+  {
+    "Deposit": true,
+    "Withdraw": true,
+    "MinWithdraw": 0.005,
+    "Coin": "ETH"
+  },
+  {
+    "Deposit": true,
+    "Withdraw": true,
+    "MinWithdraw": 5,
+    "Coin": "XRP"
+  },
+  ... and more...
+]
+
+```
+
+* Deposit: Coin deposit feature status.
+* Withdraw: Coin withdraw feature status.
+* MinWithdraw: Minimum withdraw value.
+* Coin: Related coin.
 
 ## Available Coin / Currency
 
