@@ -16,6 +16,7 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 
 <code>GET</code> .../coin/BTC_TRY
 * BTC_TRY
+
 **Result:**
 ``` json
 
@@ -39,6 +40,7 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 
 <code>GET</code> .../coin/BTC_CHFT
 * BTC_CHFT
+
 **Result:**
 ``` json
 
@@ -61,6 +63,7 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 ```
 <code>GET</code> .../coin/LTC_BTC
 * LTC_BTC
+
 **Result:**
 ``` json
 
@@ -100,6 +103,7 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 
 <code>GET</code> .../ReturnTicker
 * ReturnTicker
+
 **Result:**
 ``` json
 
@@ -172,6 +176,7 @@ Please use the [issues](https://github.com/BitciTeknoloji/coin-api-docs/issues) 
 
 <code>GET</code> .../orderbook/BTC_TRY
 * BTC_TRY
+
 **Result:**
 ``` json
 
